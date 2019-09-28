@@ -10,6 +10,10 @@ Thanks for checking out this front-end coding challenge.
 
 **To do these challenges, you need a basic understanding of HTML, CSS and (sometimes) JavaScript.**
 
+* * *
+Результат работы можно посмотреть тут: <a href="#" target="_blank"> <img src="https://img.shields.io/badge/Site-Noble24.pro-orange?style=for-the-badge" alt="Страница на Noble24.pro"> </a> и <a href="https://fylodark.netlify.com/" target="_blank"> <img src="https://img.shields.io/badge/Site-Nitlify.com-blue?style=for-the-badge" alt="Страница на Netlify.com"> </a> 
+* * *
+
 ## Where to find everything
 
 Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. 
