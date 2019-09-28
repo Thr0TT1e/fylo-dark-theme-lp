@@ -1,3 +1,7 @@
+* * *
+Результат работы можно посмотреть тут: <a href="#" target="_blank"> <img src="https://img.shields.io/badge/Site-Noble24.pro-orange?style=for-the-badge" alt="Страница на Noble24.pro"> </a> и <a href="https://fylodark.netlify.com/" target="_blank"> <img src="https://img.shields.io/badge/Site-Nitlify.com-blue?style=for-the-badge" alt="Страница на Netlify.com"> </a> 
+* * *
+
 # Frontend Mentor - Fylo landing page with dark theme and features grid
 
 ![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)
@@ -9,6 +13,10 @@ Thanks for checking out this front-end coding challenge.
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
 **To do these challenges, you need a basic understanding of HTML, CSS and (sometimes) JavaScript.**
+
+* * *
+Результат работы можно посмотреть тут: <a href="#" target="_blank"> <img src="https://img.shields.io/badge/Site-Noble24.pro-orange?style=for-the-badge" alt="Страница на Noble24.pro"> </a> и <a href="https://fylodark.netlify.com/" target="_blank"> <img src="https://img.shields.io/badge/Site-Nitlify.com-blue?style=for-the-badge" alt="Страница на Netlify.com"> </a> 
+* * *
 
 ## Where to find everything
 
