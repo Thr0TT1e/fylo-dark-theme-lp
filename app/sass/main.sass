@@ -36,7 +36,10 @@ body
 // Custom Sass / Remove before use
 
 header
+	background: url("../img/_src/bg-curvy-desktop.svg") no-repeat bottom center
+	background-size: contain
 	background-color: $colorDarkBlueIntro
+	padding-bottom: 160px
 	.maxWidth
 		display: grid
 		margin:
@@ -44,6 +47,7 @@ header
 		.headerFix
 			display: grid
 			grid-template-columns: repeat(2, 1fr)
+			margin-bottom: 74px
 			.menu ul
 				display: flex
 				list-style: none
@@ -53,23 +57,76 @@ header
 		.headerIntro
 			display: grid
 			grid-template-columns: minmax(auto, 700px)
+			grid-row-gap: 40px
 			justify-content: center
 			text-align: center
 			img
 				width: 100%
 				height: auto
+			h1
+				font-size: 2.5rem
+			button
+				width: 280px
+				background-color: $colorAccentBlue
+				border: none
+				border-radius: 40px
+				padding: 22px
+				color: $colorWhite
+				font-weight: bold
+				justify-self: center
+				&:hover
+					background-color: $colorAccentCyan
+					transition: all .3s ease-in
 
 main
 	background-color: $colorDarkBlueMain
 	display: grid
 	grid-template-rows: repeat(3, auto)
+	grid-row-gap: 130px
 	justify-items: center
 	.mainBlock
 		display: grid
-		grid-template-columns: repeat(2, 1fr)
+		grid-template-columns: repeat(2, minmax(auto, 360px))
 		text-align: center
-	.productive
+		grid-row-gap: 90px
+		grid-column-gap: 130px
+		.item1
+			display: grid
+			grid-row-gap: 30px
+			justify-items: center
+			&:hover
+				transform: scale(1.2)
 
+	.productive
+		display: grid
+		grid-template-columns: repeat(2, minmax(auto, 550px))
+		grid-column-gap: 50px
+		.blockProd1 img
+			width: 100%
+			height: auto
+			margin: 0 auto
+		.blockProd2
+			align-self: center
+		h2
+			max-width: 340px
+			font-size: 2rem
+		a
+			color: $colorAccentCyan
+			border-bottom: 1px $colorAccentCyan solid
+			&:hover
+				color: $colorAccentBlue
+				text-decoration: none
+				border-bottom: 1px $colorAccentBlue solid
+	.mainComment
+		display: grid
+		grid-template-columns: repeat(3, 360px)
+		grid-column-gap: 40px
+		article
+			background: $colorDarkBlueTM
+			padding: 45px 27px 27px
+			img
+				width: 27px
+				border-radius: 50%
 
 footer
 	background-color: $colorDarkBlueFooter
