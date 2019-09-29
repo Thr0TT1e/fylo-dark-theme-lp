@@ -121,12 +121,21 @@ main
 		display: grid
 		grid-template-columns: repeat(3, 360px)
 		grid-column-gap: 40px
+		padding-bottom: 130px
 		article
 			background: $colorDarkBlueTM
 			padding: 45px 27px 27px
-			img
-				width: 27px
-				border-radius: 50%
+			.blockName
+				display: grid
+				grid-template-columns: 30px 1fr
+				grid-template-rows: 30px
+				.nameImg
+					width: 30px
+					img
+						width: 27px
+						border-radius: 50%
+				.nameDescription
+					font-size: .5rem
 
 footer
 	background-color: $colorDarkBlueFooter
