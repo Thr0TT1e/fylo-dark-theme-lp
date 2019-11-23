@@ -121,7 +121,7 @@ main
 		display: grid
 		grid-template-columns: repeat(3, 360px)
 		grid-column-gap: 40px
-		padding-bottom: 130px
+		padding-bottom: 200px
 		article
 			background: $colorDarkBlueTM
 			padding: 45px 27px 27px
@@ -129,16 +129,48 @@ main
 				display: grid
 				grid-template-columns: 30px 1fr
 				grid-template-rows: 30px
+				align-self: center
 				.nameImg
 					width: 30px
 					img
 						width: 27px
 						border-radius: 50%
 				.nameDescription
-					font-size: .5rem
+					font-size: .6rem
+					p
+						margin: 0
+						&:first-child
+							font-weight: 700
 
 footer
 	background-color: $colorDarkBlueFooter
+	.blockSubscription
+		position: relative
+		top: -13vh
+		max-width: 50vw
+		background: hsl(219, 30%, 18%)
+		border-radius: 10px
+		padding: 30px 50px
+		text-align: center
+		margin: 0 auto
+		h2
+			font-size: 1.9rem
+			margin-bottom: 20px
+		p
+			font-size: .75rem
+		input
+			width: 60%
+			border-radius: 40px
+			border: none
+			padding: 8px 25px
+			margin-right: 20px
+		button
+			background: $colorAccentBlue
+			color: $colorWhite
+			border-radius: 40px
+			border: none
+			padding: 8px 25px
+
 
 //.container
 //	max-width: 700px
