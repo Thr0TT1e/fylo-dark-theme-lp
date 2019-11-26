@@ -170,6 +170,26 @@ footer
 			border-radius: 40px
 			border: none
 			padding: 8px 25px
+	.blockFooter
+		display: grid
+		grid-template-columns: repeat(4, 1fr)
+		.location
+			display: grid
+			grid-template-columns: 30px 1fr
+		.contacts
+			display: grid
+			grid-template-columns: 30px 1fr
+		.footerMenu
+			ul
+				display: grid
+				grid-template-columns: repeat(2, 1fr)
+			li
+				list-style: none
+				a
+					color: $colorWhite
+					&:hover
+						text-decoration: none
+
 
 
 //.container
