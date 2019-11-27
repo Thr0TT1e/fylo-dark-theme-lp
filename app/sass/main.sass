@@ -54,6 +54,11 @@ header
 				justify-content: flex-end
 				li
 					padding-right: 55px
+					> a
+						color: $colorWhite
+						&:hover
+							text-decoration: none
+
 		.headerIntro
 			display: grid
 			grid-template-columns: minmax(auto, 700px)
@@ -144,6 +149,7 @@ main
 
 footer
 	background-color: $colorDarkBlueFooter
+	font-size: .8rem
 	.blockSubscription
 		position: relative
 		top: -13vh
@@ -170,27 +176,37 @@ footer
 			border-radius: 40px
 			border: none
 			padding: 8px 25px
+	.footerLogo
+		margin-bottom: 40px
 	.blockFooter
 		display: grid
-		grid-template-columns: repeat(4, 1fr)
+		grid-template-columns: 1fr 200px 1fr 150px
+		grid-column-gap: 60px
 		.location
 			display: grid
 			grid-template-columns: 30px 1fr
 		.contacts
 			display: grid
 			grid-template-columns: 30px 1fr
+			align-self: center
 		.footerMenu
 			ul
 				display: grid
 				grid-template-columns: repeat(2, 1fr)
 			li
 				list-style: none
+				margin-bottom: 10px
 				a
 					color: $colorWhite
 					&:hover
+						color: $colorAccentCyan
 						text-decoration: none
+		.socials
+			img
+				width: 30px
 
-
+.attribution
+	margin-top: 50px
 
 //.container
 //	max-width: 700px
