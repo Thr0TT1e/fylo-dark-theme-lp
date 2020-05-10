@@ -121,6 +121,13 @@ main
 			justify-items: center
 			&:hover
 				transform: scale(1.2)
+		+media-breakpoint-between(xs, md)
+			max-width: none
+			grid-template-columns: 1fr
+			.item1
+				font-size: 1.4rem
+				h3
+					font-size: 1.8rem
 	.productive
 		display: grid
 		grid-template-columns: repeat(2, minmax(auto, 550px))
