@@ -254,6 +254,8 @@ footer
 				font-size: 1.2rem
 	.footerLogo
 		margin-bottom: 40px
+		+media-breakpoint-between(xs, md)
+			text-align: center
 	.blockFooter
 		display: grid
 		grid-template-columns: 1fr 200px 1fr 150px
@@ -317,9 +319,10 @@ footer
 				grid-template-columns: 1fr
 				grid-column-gap: 40px
 			.location
-				max-width: 70vw
 				text-align: center
-				margin-right: 50px
+				font-size: 1.4rem
+			.contacts, .footerMenu
+				font-size: 1.4rem
 		.socials
 			svg
 				width: 30px
@@ -329,6 +332,7 @@ footer
 					fill: $colorAccentCyan
 			+media-breakpoint-between(xs, md)
 				svg
+					width: 60px
 					margin-right: 30px
 .attribution
 	margin-top: 50px
