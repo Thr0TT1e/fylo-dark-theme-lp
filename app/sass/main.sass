@@ -137,6 +137,20 @@ main
 				color: $colorAccentBlue
 				text-decoration: none
 				border-bottom: 1px $colorAccentBlue solid
+		+media-breakpoint-between(xs, md)
+			grid-template-columns: 1fr
+			.blockProd1
+				margin-bottom: 30px
+			.blockProd2
+				text-align: center
+			h2
+				max-width: none
+				padding: 30px 10px
+				font-size: 2.5rem
+			p
+				font-size: 1.4rem
+			a
+				font-size: 1.4rem
 	.mainComment
 		display: grid
 		grid-template-columns: repeat(auto-fit, minmax(auto, 360px))
@@ -162,12 +176,27 @@ main
 					img
 						width: 27px
 						border-radius: 50%
+					+media-breakpoint-between(xs, md)
+						width: 50px
+						img
+							width: 50px
 				.nameDescription
 					font-size: .6rem
 					p
 						margin: 0
 						&:first-child
 							font-weight: 700
+					+media-breakpoint-between(xs, md)
+						p
+							font-size: 1rem
+				+media-breakpoint-between(xs, md)
+					grid-column-gap: 30px
+		+media-breakpoint-between(xs, md)
+			grid-template-columns: 1fr
+			justify-content: center
+			background: url("../img/_src/bg-quotes.png") no-repeat 3% 2.5%
+			article > p
+				font-size: 1.4rem
 footer
 	background-color: $colorDarkBlueFooter
 	font-size: .8rem
