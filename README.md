@@ -1,5 +1,5 @@
 * * *
-Результат работы можно посмотреть тут: <a href="#" target="_blank"> <img src="https://img.shields.io/badge/Site-Noble24.pro-orange?style=for-the-badge" alt="Страница на Noble24.pro"> </a> и <a href="https://fylodark.netlify.com/" target="_blank"> <img src="https://img.shields.io/badge/Site-Nitlify.com-blue?style=for-the-badge" alt="Страница на Netlify.com"> </a> 
+Результат работы можно посмотреть тут: <a href="https://fylodark-lp.noble24.pro/" target="_blank"> <img src="https://img.shields.io/badge/Site-Noble24.pro-orange?style=for-the-badge" alt="Страница на Noble24.pro"> </a> и <a href="https://fylodark.netlify.com/" target="_blank"> <img src="https://img.shields.io/badge/Site-Nitlify.com-blue?style=for-the-badge" alt="Страница на Netlify.com"> </a> 
 * * *
 
 # Frontend Mentor - Fylo landing page with dark theme and features grid
